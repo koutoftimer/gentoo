@@ -37,8 +37,8 @@ QA_PREBUILT="*"
 
 src_unpack() {
 	# mimic AUR package: https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=upwork#n19
-	use amd64 && pkg_uri="https://upwork-usw2-desktopapp.upwork.com/binaries/v5_8_0_24_aef0dc8c37cf46a8/upwork-5.8.0.24-1fc24.x86_64.rpm"
-	use x86   && pkg_uri="https://upwork-usw2-desktopapp.upwork.com/binaries/v5_8_0_24_aef0dc8c37cf46a8/upwork-5.8.0.24-1fc24.i386.rpm"
+	use amd64 && pkg_uri="https://upwork-usw2-desktopapp.upwork.com/binaries/v5_8_0_25_e119f6b95355474f/upwork-5.8.0.25-1fc24.x86_64.rpm"
+	use x86   && pkg_uri="https://upwork-usw2-desktopapp.upwork.com/binaries/v5_8_0_25_e119f6b95355474f/upwork-5.8.0.25-1fc24.i386.rpm"
 
 	header="--header=User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
 	pkg_binary="upwork.rpm"
